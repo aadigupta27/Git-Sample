@@ -1,0 +1,85 @@
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing : inherit;
+}
+.container{
+    display: flex;
+    flex-direction : column;
+    width: 310px;
+    border: 1px solid #ccc;
+    border-radius  : 15px;
+    padding: 6px;
+    background-color: #f1efef;
+    margin-left:40%;
+    margin-top : 2%;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content : space-between;
+    flex-direction: column;
+}
+
+button{
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #f7f7f7;
+    font-size: 26px;
+    width: 70px;
+    outline: none;
+    margin-bottom :3px;
+}
+.function{
+    background-color:#e8e6e3;
+}
+.operator{
+    background-color : #f77a2c;
+    color : white;
+}
+.equal{
+    background-color: #0a89ff;
+    color: white;
+}
+.display{
+    width : 100%;
+    color: white;
+    background-color : #252525;
+    padding : 20px;
+    font-size: 2em;
+    border-radius: 15px;
+    border: 4px solid #2c2c2c;
+    text-align : right;
+    margin-bottom: 6px;
+}
+.keys-row-2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.key-row-2-1, .key-row-2-2{
+    display:flex;
+    flex-direction: column;
+}
+.keys-row-1{
+    display: flex;
+    justify-content: space-between;
+}
+.keys-row-3 , .key-row-2-1-2{
+    display : flex;
+}
+.equal{
+    flex-basis : 100%;
+    margin-top: 4px;
+}
+.zero{
+    flex-basis : 65%;
+    margin-right: 4px;
+}
+.plus{
+    flex-basis : 49%;
+    background-color :#d45202;
+}
